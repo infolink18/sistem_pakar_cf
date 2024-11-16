@@ -1,0 +1,32 @@
+/* Styling tabel header */
+.tabel-header > thead > tr > th {
+  vertical-align: middle;
+  text-align: center;
+  background: #ffffff;
+}
+
+/* Datatable remove sorting arrow icon */
+.dataTable > thead > tr > th[class*="sort"]:after {
+  content: "" !important;
+}
+.dataTable > thead > tr > th[class*="sort"]:before {
+  content: "" !important;
+}
+
+/* Custom section */
+.content-custom {
+  min-height: 480px;
+}
+
+/* Table custom */
+.table-custom {
+  min-height: 380px;
+}
+
+.vertical {
+  margin-top: 50%;
+}
+
+.page-header {
+  font-size: 1.9rem;
+}
